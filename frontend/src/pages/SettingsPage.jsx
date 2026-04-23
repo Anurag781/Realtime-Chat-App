@@ -18,7 +18,6 @@ const SettingsPage = () => {
 
   return (
     <div className="min-h-screen bg-base-200 relative overflow-hidden">
-      {/* Premium Background Glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-16 left-10 h-72 w-72 rounded-full bg-primary/10 blur-3xl"></div>
         <div className="absolute bottom-10 left-1/3 h-72 w-72 rounded-full bg-secondary/10 blur-3xl"></div>
@@ -45,8 +44,6 @@ const SettingsPage = () => {
             </p>
           </div>
 
-          {/* Back / Close */}
-          {/* Back / Dashboard Button */}
           <button
             onClick={() => navigate(-1)}
             className="group inline-flex items-center gap-2 px-4 h-11 rounded-xl bg-base-100 border border-base-300 shadow-md hover:shadow-lg hover:scale-[1.02] transition-all"
@@ -122,7 +119,6 @@ const SettingsPage = () => {
             </div>
           </div>
 
-          {/* Preview Card */}
           <div className="rounded-3xl border border-white/10 bg-base-100/80 backdrop-blur-2xl shadow-[0_20px_80px_rgba(0,0,0,0.12)] overflow-hidden">
             <div className="px-6 py-5 border-b border-base-300 bg-base-100/70">
               <h3 className="text-xl font-semibold">Live Preview</h3>

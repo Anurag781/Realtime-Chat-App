@@ -30,7 +30,6 @@ const LoginPage = () => {
 
   return (
     <div className="min-h-screen bg-base-200 relative overflow-hidden pt-24 lg:pt-28">
-      {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-10 left-10 h-72 w-72 rounded-full bg-primary/10 blur-3xl"></div>
         <div className="absolute bottom-10 left-1/3 h-72 w-72 rounded-full bg-secondary/10 blur-3xl"></div>

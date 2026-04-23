@@ -18,8 +18,6 @@ const messageSchema = new mongoose.Schema(
     image: {
       type: String,
     },
-
-    // ✅ NEW
     delivered: {
       type: Boolean,
       default: false,

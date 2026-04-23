@@ -9,7 +9,6 @@ const HomePage = () => {
 
   return (
     <div className="h-screen bg-base-200 relative overflow-hidden pt-20">
-      {/* Premium Background Effects */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-10 h-72 w-72 rounded-full bg-primary/10 blur-3xl"></div>
         <div className="absolute bottom-10 right-10 h-80 w-80 rounded-full bg-secondary/10 blur-3xl"></div>
@@ -19,9 +18,9 @@ const HomePage = () => {
       {/* Main Layout */}
       <div className="h-[calc(100vh-5rem)] px-3 sm:px-4 lg:px-6 pb-3 sm:pb-4">
         <div className="mx-auto h-full max-w-7xl">
-          {/* Premium Main Container */}
+          {/* Main Container */}
           <div className="relative h-full overflow-hidden rounded-3xl border border-white/10 bg-base-100/75 backdrop-blur-2xl shadow-[0_20px_80px_rgba(0,0,0,0.12)]">
-            {/* Top Premium Border */}
+            {/* Top Border */}
             <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent"></div>
 
             {/* Chat Layout */}
@@ -41,7 +40,7 @@ const HomePage = () => {
               </main>
             </div>
 
-            {/* Bottom Premium Border */}
+            {/* Bottom Border */}
             <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-secondary/40 to-transparent"></div>
           </div>
         </div>

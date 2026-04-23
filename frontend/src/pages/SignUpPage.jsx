@@ -49,7 +49,6 @@ const SignUpPage = () => {
 
   return (
     <div className="min-h-screen bg-base-200 relative overflow-hidden pt-24 lg:pt-28">
-      {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-10 left-10 h-72 w-72 rounded-full bg-primary/10 blur-3xl"></div>
         <div className="absolute bottom-10 left-1/3 h-72 w-72 rounded-full bg-secondary/10 blur-3xl"></div>
@@ -60,7 +59,6 @@ const SignUpPage = () => {
         {/* Left Side */}
         <div className="flex items-start lg:items-center justify-center px-6 pb-10 sm:px-10 lg:px-14">
           <div className="w-full max-w-md">
-            {/* Glass Card */}
             <div className="rounded-3xl border border-white/10 bg-base-100/85 backdrop-blur-2xl shadow-[0_25px_80px_rgba(0,0,0,0.16)] p-8 sm:p-10 transition-all duration-300 hover:shadow-[0_30px_90px_rgba(0,0,0,0.22)]">
               {/* Header */}
               <div className="text-center mb-8">

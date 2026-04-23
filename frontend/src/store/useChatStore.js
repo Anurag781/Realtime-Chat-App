@@ -10,8 +10,6 @@ export const useChatStore = create((set, get) => ({
   isUsersLoading: false,
   isMessagesLoading: false,
   unreadMessages: {},
-
-  /* NEW */
   isTyping: false,
   typingUserId: null,
 
@@ -62,7 +60,6 @@ export const useChatStore = create((set, get) => ({
     const socket = useAuthStore.getState().socket;
     const authUser = useAuthStore.getState().authUser;
 
-    // remove old listeners first
     socket.off("newMessage");
     socket.off("messageDelivered");
     socket.off("messagesSeen");

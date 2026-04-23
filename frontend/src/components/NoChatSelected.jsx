@@ -3,14 +3,12 @@ import { MessageSquare, Sparkles, ShieldCheck } from "lucide-react";
 const NoChatSelected = () => {
   return (
     <div className="w-full h-full flex flex-1 items-center justify-center bg-base-200 relative overflow-hidden">
-      {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-20 h-80 w-80 rounded-full bg-primary/10 blur-3xl"></div>
         <div className="absolute bottom-16 right-20 h-80 w-80 rounded-full bg-secondary/10 blur-3xl"></div>
         <div className="absolute top-1/2 left-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/10 blur-3xl"></div>
       </div>
 
-      {/* Full Screen Content */}
       <div className="max-w-2xl px-6 sm:px-10 text-center">
         {/* Icon */}
         <div className="flex justify-center mb-8">

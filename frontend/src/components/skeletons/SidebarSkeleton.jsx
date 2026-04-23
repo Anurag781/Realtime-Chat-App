@@ -1,7 +1,6 @@
 import { Users, Wifi } from "lucide-react";
 
 const SidebarSkeleton = () => {
-  // Same logic
   const skeletonContacts = Array(8).fill(null);
 
   return (

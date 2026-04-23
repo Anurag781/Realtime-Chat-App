@@ -23,7 +23,7 @@ const Navbar = () => {
         shadow-[0_8px_30px_rgba(0,0,0,0.08)]
       "
     >
-      {/* Premium Top Glow */}
+      
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent"></div>
 
       <div className="container mx-auto px-3 sm:px-4 h-16">

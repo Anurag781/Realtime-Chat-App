@@ -1,5 +1,4 @@
 const MessageSkeleton = () => {
-  // Keep same logic
   const skeletonMessages = Array(6).fill(null);
 
   return (

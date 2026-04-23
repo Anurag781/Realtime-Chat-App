@@ -38,11 +38,6 @@ io.on("connection", (socket) => {
   // send online users list
   io.emit("getOnlineUsers", Object.keys(userSocketMap));
 
-  /* =========================================
-     Typing Indicator Events (NEW)
-     Keep all existing logic same
-  ========================================= */
-
   socket.on("typing", ({ to, from }) => {
     const receiverSockets = userSocketMap[to];
 
