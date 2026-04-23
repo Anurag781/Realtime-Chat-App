@@ -25,7 +25,7 @@ Built with <b>React</b>, <b>Node.js</b>, <b>MongoDB</b>, <b>Socket.io</b>, and <
 
 <br/>
 
-[**🌐 Live Demo**](YOUR_LIVE_LINK) | [**📁 Source Code**](https://github.com/yourusername/chitchat) | [**💼 LinkedIn**](https://linkedin.com/in/yourprofile)
+[**🌐 Live Demo**](YOUR_LIVE_LINK) | [**📁 Source Code**](https://github.com/Anurag781/Realtime-Chat-App) | [**💼 LinkedIn**](https://www.linkedin.com/in/anurag-thakur-0aaba52a0)
 
 </div>
 
